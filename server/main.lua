@@ -3,7 +3,7 @@ frameworkObject = nil
 function ExecuteSql(query)
     local IsBusy = true
     local result = nil
-    if Config.Mysql == "oxmysql" then
+    if Config.Mysql == "oxmysql" thenaaaa
         if MySQL == nil then
             exports.oxmysql:execute(query, function(data)
                 result = data
